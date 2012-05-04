@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+     android:layout_marginTop="10dip"
+     android:background="#6005"
+     >
+     
+       <RelativeLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="35dip"
+     android:orientation="vertical"
+     android:layout_marginTop="10dip"
+     android:layout_marginLeft="08dip"
+     android:layout_marginRight="08dip"
+     android:background="#000000"
+     >
+     
+  	  <TextView
+        android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+		android:text="Work Schedule"
+		android:typeface="serif"
+		android:textStyle="bold"
+		android:textColor="#ffffff"
+	/>
+    	      </RelativeLayout>
+<ScrollView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/scrollView1"
+          android:layout_width="fill_parent" 
+          android:layout_height="fill_parent"
+          android:layout_marginTop="10dip"
+          >
+ <LinearLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+     android:background="#6005"
+     android:layout_marginTop="10dip"
+     >
+     <RelativeLayout
+     android:layout_marginTop="10dip"
+     android:layout_marginLeft="8dip"
+     android:layout_marginRight="8dip"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="110dip"
+     android:orientation="vertical"
+    android:background="@drawable/listcolor"
+>
+   
+    
+    <TextView
+	    android:id="@+id/update_me"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:typeface="serif"
+		android:textStyle="bold"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="5dip" 
+     	android:textColor="#000000"
+	/>
+	<EditText
+	    android:id="@+id/updatedate"
+	    android:focusable="false"
+	    android:layout_width="200dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="110dip" 
+     	android:textColor="#000000"
+     	android:text="khfdwafgewaghW"
+	/>
+	 <TextView
+	    android:id="@+id/update_time"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:typeface="serif"
+		android:textStyle="bold"
+        android:layout_marginTop="60dip"
+        android:layout_marginLeft="5dip" 
+     	android:textColor="#000000"
+	/>
+	<EditText
+	    android:id="@+id/updatetime"
+	    android:focusable="false"
+	    android:layout_width="200dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="60dip"
+        android:layout_marginLeft="110dip" 
+     	android:textColor="#000000"
+	/>
+	</RelativeLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/listcolor"
+    >
+             <TextView
+      	    android:id="@+id/accsetting"
+      	    android:typeface="serif"
+	    	android:textStyle="bold"
+	        android:layout_marginLeft="5dip" 
+	        android:layout_marginTop="13dip"
+	        android:textColor="#000000"
+	        android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+        	android:text="Frequency"
+		/>
+		<Spinner android:id="@+id/freq" 
+			 android:layout_marginTop="5dip" 
+        android:layout_marginLeft="110dip" 
+		 android:layout_height="50dip"
+		  android:layout_width="fill_parent"
+		 />
+	
+		 <TextView
+		    android:typeface="serif"
+		    android:textStyle="bold"
+	        android:layout_marginLeft="5dip" 
+		    android:layout_marginTop="70dip"
+		    android:textColor="#000000"
+		    android:id="@+id/saveuserid"
+	        android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+        	android:text="Discription"
+		/>
+		
+		<EditText
+		 android:inputType="textNoSuggestions|textVisiblePassword"
+		 android:id="@+id/discription" 
+		 android:layout_marginTop="65dip" 
+		 android:layout_marginLeft="110dip" 
+		 android:layout_height="40dip"
+		  android:layout_width="200dip"
+		  
+		    />
+
+		
+	   
+	</RelativeLayout>
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/listcolor"
+
+            >
+	</RelativeLayout>
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="67dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/listcolor"
+
+            >
+         <Button
+      	    android:id="@+id/senddata"
+	        android:layout_marginLeft="10dip" 
+	        android:layout_marginTop="10dip"
+	        android:layout_marginBottom="18dip"
+	        android:layout_marginRight="10dip"
+	        android:textColor="#000000"
+	        android:layout_width="fill_parent"
+    	    android:layout_height="40dip"
+        	android:text="Add Work Status"
+            android:typeface="serif"
+		    android:textStyle="bold"
+        	
+		/>
+		 
+	</RelativeLayout>
+ </LinearLayout>
+		</ScrollView>
+  </LinearLayout>
+ 

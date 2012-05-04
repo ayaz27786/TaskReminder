@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="CadetBlue">#5F9F9F</color>
+    <color name="DarkSlateBlue">#483D8B</color>
+    <color name="OrangeRed4">#8B2500</color>
+    <color name="DarkOrchid1">#BF3EFF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="Violet">#CC3299</color>
+    <color name="LemonChiffon4">#8B8970</color>
+    <color name="YellowGreen">#99CC32</color>
+  
+    
+</resources>
